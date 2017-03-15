@@ -11,3 +11,5 @@ enthusiasts. Check out AlienWhoops heritage at Lance's site:
 
 May this work be of benefit and bring much joy and happiness!
 Charles Kelley Stevenson
+
+[![IMAGE Charlie's AlienWhoop F4 Moonlight Mission](https://img.youtube.com/vi/38bLJCeIUMI/0.jpg)](https://www.youtube.com/watch?v=38bLJCeIUMI)
