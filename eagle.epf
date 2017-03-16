@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 00 01"
+Version="08 01 00"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -24,8 +24,10 @@ UsedLibrary="C:/EAGLE 8.0/lbr/switch-omron.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/testpad.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/texas.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/transistor-fet.lbr"
-UsedLibrary="ST Micro/micro-stm_v2.lbr"
 UsedLibrary="alienflight.lbr"
+UsedLibrary="Sparkfun.lbr"
+UsedLibrary="CharliesAlienWhoop.lbr"
+UsedLibrary="micro-stm_v2.lbr"
 
 [Win_1]
 Type="Control Panel"
