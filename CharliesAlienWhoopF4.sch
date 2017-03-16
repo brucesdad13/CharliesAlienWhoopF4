@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.1">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2481,7 +2481,7 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <label x="266.7" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="L1" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="205.74" x2="76.2" y2="205.74" width="0.1524" layer="91"/>
@@ -2490,7 +2490,7 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <wire x1="76.2" y1="198.12" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="L2" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
