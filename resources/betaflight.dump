@@ -1,10 +1,8 @@
-# dump
-
 # version
 # Betaflight / ALIENFLIGHTF4 3.2.0 Feb 21 2017 / 16:35:07 (b240fb4)
 
 # name
-name -
+name ALIENWHOOPF4
 
 # resources
 resource BEEPER 1 C13
@@ -424,7 +422,9 @@ set yaw_deadband = 2
 set thr_corr_value = 0
 set thr_corr_angle = 800
 set yaw_control_direction = 1
-set yaw_motor_direction = -1
+# set yaw_motor_direction to -1 for inductrix frame and motor orientation
+# or to 1 for furibee/eachine frame/motor direction -cks
+set yaw_motor_direction = 1
 set servo_center_pulse = 1500
 set tri_unarmed_servo = ON
 set servo_lowpass_hz = 0
