@@ -12,6 +12,8 @@ For general flight controller hacking discussion please join the Facebook group 
 
 [![IMAGE Charlie's AlienWhoop F4 Moonlight Mission](https://img.youtube.com/vi/38bLJCeIUMI/0.jpg)](https://www.youtube.com/watch?v=38bLJCeIUMI)
 
+[![IMAGE Charlie's AlienWhoopF4 Takes On Brewmaster's Drone Night 3/25/2017 ](https://img.youtube.com/vi/Dv2q1gmsQvg/0.jpg)](https://www.youtube.com/watch?v=Dv2q1gmsQvg)
+
 May this work be of benefit and bring much joy and happiness!
 
 ## Acknowledgements
