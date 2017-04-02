@@ -1,5 +1,5 @@
 # version
-# Betaflight / ALIENFLIGHTF4 3.2.0 Feb 21 2017 / 16:35:07 (b240fb4)
+# Betaflight / ALIENFLIGHTF4 3.2.0 Mar 18 2017 / 20:32:58 (db2e868)
 
 # name
 name ALIENWHOOPF4
@@ -36,28 +36,28 @@ resource PWM 6 NONE
 resource PWM 7 NONE
 resource PWM 8 NONE
 resource LED_STRIP 1 B15
-resource SERIAL_TX 1 A09
-resource SERIAL_TX 2 A02
-resource SERIAL_TX 3 NONE
-resource SERIAL_TX 4 C11
-resource SERIAL_TX 5 NONE
-resource SERIAL_TX 6 NONE
+resource SERIAL_TX 1 @01
+resource SERIAL_TX 2 NONE
+resource SERIAL_TX 3 A04
+resource SERIAL_TX 4 @05
+resource SERIAL_TX 5 @04
+resource SERIAL_TX 6 @05
 resource SERIAL_TX 7 NONE
 resource SERIAL_TX 8 NONE
 resource SERIAL_TX 9 NONE
 resource SERIAL_TX 10 NONE
 resource SERIAL_TX 11 NONE
-resource SERIAL_TX 12 NONE
-resource SERIAL_RX 1 A10
-resource SERIAL_RX 2 A03
+resource SERIAL_TX 12 @05
+resource SERIAL_RX 1 @04
+resource SERIAL_RX 2 @05
 resource SERIAL_RX 3 NONE
-resource SERIAL_RX 4 C10
+resource SERIAL_RX 4 NONE
 resource SERIAL_RX 5 NONE
 resource SERIAL_RX 6 NONE
-resource SERIAL_RX 7 NONE
-resource SERIAL_RX 8 NONE
-resource SERIAL_RX 9 NONE
-resource SERIAL_RX 10 NONE
+resource SERIAL_RX 7 @01
+resource SERIAL_RX 8 @05
+resource SERIAL_RX 9 @04
+resource SERIAL_RX 10 @05
 resource SERIAL_RX 11 NONE
 resource SERIAL_RX 12 NONE
 
@@ -255,7 +255,7 @@ mode_color 6 10 0
 mode_color 7 0 3
 
 # aux
-aux 0 1 1 900 1275
+aux 0 1 1 900 1150
 aux 1 2 1 1300 2100
 aux 2 0 0 900 900
 aux 3 0 0 900 900
@@ -320,39 +320,114 @@ rxfail 16 h
 rxfail 17 h
 
 # master
-set task_statistics = ON
+set align_gyro = DEFAULT
+set gyro_lpf = OFF
+set gyro_sync_denom = 1
+set gyro_lowpass_type = PT1
+set gyro_lowpass = 90
+set gyro_notch1_hz = 400
+set gyro_notch1_cutoff = 300
+set gyro_notch2_hz = 200
+set gyro_notch2_cutoff = 100
+set moron_threshold = 48
+set gyro_use_32khz = OFF
+set gyro_isr_update = OFF
+set align_acc = DEFAULT
+set acc_hardware = AUTO
+set acc_lpf_hz = 10
+set acc_trim_pitch = 0
+set acc_trim_roll = 0
+set align_mag = DEFAULT
+set mag_hardware = NONE
+set mag_declination = 0
+set magzero_x = 0
+set magzero_y = 0
+set magzero_z = 0
+set baro_hardware = NONE
+set baro_tab_size = 21
+set baro_noise_lpf =  0.600
+set baro_cf_vel =  0.985
+set baro_cf_alt =  0.965
 set mid_rc = 1500
 set min_check = 1100
 set max_check = 1900
 set rssi_channel = 0
 set rssi_scale = 30
+set rssi_invert = OFF
 set rc_interp = AUTO
 set rc_interp_ch = RP
 set rc_interp_int = 19
-set rssi_ppm_invert = OFF
-set input_filtering_mode = OFF
-set fpv_mix_degrees = 0
+set fpv_mix_degrees = 15
 set max_aux_channels = 14
-set debug_mode = NONE
+set serialrx_provider = SPEK2048
+set sbus_inversion = ON
+set airmode_start_throttle = 1350
+set rx_min_usec = 885
+set rx_max_usec = 2115
+set serialrx_halfduplex = OFF
+set input_filtering_mode = OFF
+set blackbox_rate_num = 1
+set blackbox_rate_denom = 1
+set blackbox_device = SDCARD
+set blackbox_on_motor_test = OFF
 set min_throttle = 1080
 set max_throttle = 2000
 set min_command = 1000
 set digital_idle_percent =  4.500
+set use_unsynced_pwm = ON
+set motor_pwm_protocol = BRUSHED
+set motor_pwm_rate = 32000
+set motor_pwm_inversion = OFF
+set thr_corr_value = 0
+set thr_corr_angle = 800
+set failsafe_delay = 10
+set failsafe_off_delay = 10
+set failsafe_throttle = 1000
+set failsafe_kill_switch = OFF
+set failsafe_throttle_low_delay = 100
+set failsafe_procedure = DROP
+set align_board_roll = 0
+set align_board_pitch = 0
+set align_board_yaw = 0
+set gimbal_mode = NORMAL
+set bat_capacity = 0
+set vbat_scale = 110
+set vbat_max_cell_voltage = 43
+set vbat_min_cell_voltage = 33
+set vbat_warning_cell_voltage = 35
+set vbat_hysteresis = 1
+set ibat_scale = 400
+set ibat_offset = 0
+set mwii_ibat_output = OFF
+set current_meter_type = ADC
+set battery_meter_type = ADC
+set bat_detect_thresh = 55
+set use_vbat_alerts = ON
+set use_cbat_alerts = OFF
+set cbat_alert_percent = 10
+set beeper_inversion = ON
+set beeper_od = OFF
+set yaw_motor_direction = 1
 set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
 set 3d_neutral = 1460
 set 3d_deadband_throttle = 50
-set use_unsynced_pwm = ON
-set motor_pwm_protocol = BRUSHED
-set motor_pwm_rate = 32000
-set motor_pwm_inversion = 0
-set disarm_kill_switch = ON
-set gyro_cal_on_first_arm = OFF
-set auto_disarm_delay = 5
-set small_angle = 25
-set fixedwing_althold_dir = 1
+set servo_center_pulse = 1500
+set servo_pwm_rate = 50
+set servo_lowpass_hz = 0
+set tri_unarmed_servo = ON
+set channel_forwarding_start = 4
 set reboot_character = 82
 set serial_update_rate_hz = 100
+set accxy_deadband = 40
+set accz_deadband = 40
+set acc_unarmedcal = ON
+set imu_dcm_kp = 2500
+set imu_dcm_ki = 0
+set small_angle = 25
+set auto_disarm_delay = 5
+set disarm_kill_switch = ON
+set gyro_cal_on_first_arm = OFF
 set gps_provider = NMEA
 set gps_sbas_mode = AUTO
 set gps_auto_config = ON
@@ -362,15 +437,15 @@ set nav_controls_heading = ON
 set nav_speed_min = 100
 set nav_speed_max = 300
 set nav_slew_rate = 30
-set beeper_inversion = ON
-set beeper_od = OFF
-set serialrx_provider = SPEK2048
-set serialrx_halfduplex = OFF
-set sbus_inversion = ON
-set spektrum_sat_bind = 5
-set spektrum_sat_bind_autorst = 1
+set fixedwing_althold_dir = 1
+set alt_hold_deadband = 40
+set alt_hold_fast_change = ON
+set deadband = 3
+set yaw_deadband = 2
+set yaw_control_direction = 1
+set pid_process_denom = 1
 set tlm_switch = OFF
-set tlm_inversion = ON
+set tlm_inversion = OFF
 set sport_halfduplex = ON
 set frsky_default_lat =  0.000
 set frsky_default_long =  0.000
@@ -381,106 +456,16 @@ set frsky_vfas_cell_voltage = OFF
 set hott_alarm_int = 5
 set pid_in_tlm = OFF
 set ibus_report_cell_voltage = OFF
-set bat_capacity = 0
-set vbat_scale = 110
-set vbat_max_cell_voltage = 43
-set vbat_min_cell_voltage = 33
-set vbat_warning_cell_voltage = 35
-set vbat_hysteresis = 1
-set ibat_scale = -667
-set ibat_offset = 2500
-set mwii_ibat_output = OFF
-set current_meter_type = ADC
-set battery_meter_type = ADC
-set bat_detect_thresh = 55
-set use_vbat_alerts = ON
-set use_cbat_alerts = OFF
-set cbat_alert_percent = 10
-set align_gyro = DEFAULT
-set align_acc = DEFAULT
-set align_mag = DEFAULT
-set align_board_roll = 0
-set align_board_pitch = 0
-set align_board_yaw = 0
-set gyro_lpf = OFF
-set gyro_sync_denom = 1
-set gyro_isr_update = OFF
-set gyro_use_32khz = OFF
-set gyro_lowpass_type = PT1
-set gyro_lowpass = 90
-set gyro_notch1_hz = 400
-set gyro_notch1_cut = 300
-set gyro_notch2_hz = 200
-set gyro_notch2_cut = 100
-set moron_threshold = 48
-set imu_dcm_kp = 2500
-set imu_dcm_ki = 0
-set alt_hold_deadband = 40
-set alt_hold_fast_change = ON
-set deadband = 2
-set yaw_deadband = 2
-set thr_corr_value = 0
-set thr_corr_angle = 800
-set yaw_control_direction = 1
-# set yaw_motor_direction to -1 for inductrix frame and motor orientation
-# or to 1 for furibee/eachine frame/motor direction -cks
-set yaw_motor_direction = 1
-set servo_center_pulse = 1500
-set tri_unarmed_servo = ON
-set servo_lowpass_hz = 0
-set servo_pwm_rate = 50
-set gimbal_mode = NORMAL
-set channel_forwarding_start = 4
-set airmode_start_throttle = 1350
-set failsafe_delay = 10
-set failsafe_off_delay = 10
-set failsafe_throttle = 1000
-set failsafe_kill_switch = OFF
-set failsafe_throttle_low_delay = 100
-set failsafe_procedure = DROP
-set rx_min_usec = 885
-set rx_max_usec = 2115
-set acc_hardware = AUTO
-set acc_lpf_hz = 10
-set accxy_deadband = 40
-set accz_deadband = 40
-set acc_unarmedcal = ON
-set acc_trim_pitch = -2
-set acc_trim_roll = 0
-set baro_tab_size = 21
-set baro_noise_lpf =  0.600
-set baro_cf_vel =  0.985
-set baro_cf_alt =  0.965
-set baro_hardware = NONE
-set mag_hardware = NONE
-set mag_declination = 0
-set pid_process_denom = 1
-set blackbox_rate_num = 1
-set blackbox_rate_denom = 1
-set blackbox_device = SDCARD
-set blackbox_on_motor_test = OFF
-set magzero_x = 0
-set magzero_y = 0
-set magzero_z = 0
 set ledstrip_visual_beeper = OFF
 set sdcard_dma = ON
+set task_statistics = ON
+set debug_mode = NONE
 set displayport_msp_col_adjust = 0
 set displayport_msp_row_adjust = 0
 
 # profile
 profile 2
 
-set gps_pos_p = 15
-set gps_pos_i = 0
-set gps_pos_d = 0
-set gps_posr_p = 34
-set gps_posr_i = 14
-set gps_posr_d = 53
-set gps_nav_p = 25
-set gps_nav_i = 33
-set gps_nav_d = 83
-set yaw_p_limit = 500
-set pidsum_limit =  0.500
 set d_lowpass_type = BIQUAD
 set d_lowpass = 100
 set d_notch_hz = 260
@@ -495,6 +480,8 @@ set yaw_accel_limit =  10.000
 set accel_limit =  0.000
 set iterm_windup = 50
 set yaw_lowpass = 0
+set pidsum_limit =  0.500
+set pidsum_limit_yaw =  0.400
 set p_pitch = 53
 set i_pitch = 45
 set d_pitch = 52
@@ -515,7 +502,15 @@ set i_vel = 55
 set d_vel = 75
 set level_sensitivity = 55
 set level_limit = 55
-rateprofile 0
+set gps_pos_p = 15
+set gps_pos_i = 0
+set gps_pos_d = 0
+set gps_posr_p = 34
+set gps_posr_i = 14
+set gps_posr_d = 53
+set gps_nav_p = 25
+set gps_nav_i = 33
+set gps_nav_d = 83
 
 # rateprofile
 rateprofile 0

@@ -1,0 +1,2397 @@
+{
+	"generatedBy": "3.1.1",
+	"apiVersion": "1.32.0",
+	"profiles": [
+		{
+			"PID": {
+				"controller": 1
+			},
+			"PIDs": [
+				[
+					44,
+					40,
+					20
+				],
+				[
+					58,
+					50,
+					22
+				],
+				[
+					70,
+					45,
+					20
+				],
+				[
+					50,
+					0,
+					0
+				],
+				[
+					15,
+					0,
+					0
+				],
+				[
+					34,
+					14,
+					53
+				],
+				[
+					25,
+					33,
+					83
+				],
+				[
+					50,
+					50,
+					100
+				],
+				[
+					40,
+					0,
+					0
+				],
+				[
+					55,
+					55,
+					75
+				]
+			],
+			"RC": {
+				"RC_RATE": 1,
+				"RC_EXPO": 0,
+				"roll_pitch_rate": 0,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
+				"dynamic_THR_PID": 0.1,
+				"throttle_MID": 0.5,
+				"throttle_EXPO": 0,
+				"dynamic_THR_breakpoint": 1650,
+				"RC_YAW_EXPO": 0,
+				"rcYawRate": 1
+			},
+			"AccTrim": [
+				0,
+				0
+			],
+			"ServoConfig": [
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				}
+			],
+			"ServoRules": [],
+			"ModeRanges": [
+				{
+					"id": 1,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 900,
+						"end": 1150
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				}
+			],
+			"AdjustmentRanges": [
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				}
+			],
+			"RCdeadband": {
+				"deadband": 3,
+				"yaw_deadband": 2,
+				"alt_hold_deadband": 40
+			}
+		},
+		{
+			"PID": {
+				"controller": 1
+			},
+			"PIDs": [
+				[
+					44,
+					40,
+					20
+				],
+				[
+					58,
+					50,
+					22
+				],
+				[
+					70,
+					45,
+					20
+				],
+				[
+					50,
+					0,
+					0
+				],
+				[
+					15,
+					0,
+					0
+				],
+				[
+					34,
+					14,
+					53
+				],
+				[
+					25,
+					33,
+					83
+				],
+				[
+					50,
+					50,
+					100
+				],
+				[
+					40,
+					0,
+					0
+				],
+				[
+					55,
+					55,
+					75
+				]
+			],
+			"RC": {
+				"RC_RATE": 1,
+				"RC_EXPO": 0,
+				"roll_pitch_rate": 0,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
+				"dynamic_THR_PID": 0.1,
+				"throttle_MID": 0.5,
+				"throttle_EXPO": 0,
+				"dynamic_THR_breakpoint": 1650,
+				"RC_YAW_EXPO": 0,
+				"rcYawRate": 1
+			},
+			"AccTrim": [
+				0,
+				0
+			],
+			"ServoConfig": [
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				}
+			],
+			"ServoRules": [],
+			"ModeRanges": [
+				{
+					"id": 1,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 900,
+						"end": 1150
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				}
+			],
+			"AdjustmentRanges": [
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				}
+			],
+			"RCdeadband": {
+				"deadband": 3,
+				"yaw_deadband": 2,
+				"alt_hold_deadband": 40
+			}
+		},
+		{
+			"PID": {
+				"controller": 1
+			},
+			"PIDs": [
+				[
+					53,
+					45,
+					52
+				],
+				[
+					53,
+					45,
+					52
+				],
+				[
+					64,
+					45,
+					18
+				],
+				[
+					50,
+					0,
+					0
+				],
+				[
+					15,
+					0,
+					0
+				],
+				[
+					34,
+					14,
+					53
+				],
+				[
+					25,
+					33,
+					83
+				],
+				[
+					50,
+					50,
+					100
+				],
+				[
+					40,
+					0,
+					0
+				],
+				[
+					55,
+					55,
+					75
+				]
+			],
+			"RC": {
+				"RC_RATE": 1,
+				"RC_EXPO": 0,
+				"roll_pitch_rate": 0,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
+				"dynamic_THR_PID": 0.1,
+				"throttle_MID": 0.5,
+				"throttle_EXPO": 0,
+				"dynamic_THR_breakpoint": 1650,
+				"RC_YAW_EXPO": 0,
+				"rcYawRate": 1
+			},
+			"AccTrim": [
+				0,
+				0
+			],
+			"ServoConfig": [
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				},
+				{
+					"min": 1000,
+					"max": 2000,
+					"middle": 1500,
+					"rate": 100,
+					"angleAtMin": 90,
+					"angleAtMax": 90,
+					"indexOfChannelToForward": 255,
+					"reversedInputSources": 0
+				}
+			],
+			"ServoRules": [],
+			"ModeRanges": [
+				{
+					"id": 1,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 900,
+						"end": 1150
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				}
+			],
+			"AdjustmentRanges": [
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				},
+				{
+					"slotIndex": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					},
+					"adjustmentFunction": 0,
+					"auxSwitchChannelIndex": 0
+				}
+			],
+			"RCdeadband": {
+				"deadband": 3,
+				"yaw_deadband": 2,
+				"alt_hold_deadband": 40
+			}
+		}
+	],
+	"MISC": {
+		"minthrottle": 1080,
+		"maxthrottle": 2000,
+		"mincommand": 1000,
+		"failsafe_throttle": 1000,
+		"gps_type": 0,
+		"gps_baudrate": 0,
+		"gps_ubx_sbas": 0,
+		"multiwiicurrentoutput": 0,
+		"rssi_channel": 0,
+		"placeholder2": 0,
+		"mag_declination": 0,
+		"vbatscale": 110,
+		"vbatmincellvoltage": 3.3,
+		"vbatmaxcellvoltage": 4.3,
+		"vbatwarningcellvoltage": 3.5,
+		"batterymetertype": 1
+	},
+	"RCMAP": [
+		1,
+		2,
+		3,
+		0,
+		4,
+		5,
+		6,
+		7
+	],
+	"BF_CONFIG": {
+		"mixerConfiguration": 3,
+		"features": {
+			"_features": [
+				{
+					"bit": 0,
+					"group": "rxMode",
+					"mode": "select",
+					"name": "RX_PPM"
+				},
+				{
+					"bit": 1,
+					"group": "batteryVoltage",
+					"name": "VBAT"
+				},
+				{
+					"bit": 2,
+					"group": "other",
+					"name": "INFLIGHT_ACC_CAL"
+				},
+				{
+					"bit": 3,
+					"group": "rxMode",
+					"mode": "select",
+					"name": "RX_SERIAL"
+				},
+				{
+					"bit": 4,
+					"group": "esc",
+					"name": "MOTOR_STOP"
+				},
+				{
+					"bit": 5,
+					"group": "other",
+					"name": "SERVO_TILT"
+				},
+				{
+					"bit": 6,
+					"group": "other",
+					"name": "SOFTSERIAL",
+					"haveTip": true
+				},
+				{
+					"bit": 7,
+					"group": "gps",
+					"name": "GPS",
+					"haveTip": true
+				},
+				{
+					"bit": 9,
+					"group": "other",
+					"name": "SONAR"
+				},
+				{
+					"bit": 10,
+					"group": "other",
+					"name": "TELEMETRY"
+				},
+				{
+					"bit": 11,
+					"group": "batteryCurrent",
+					"name": "CURRENT_METER"
+				},
+				{
+					"bit": 12,
+					"group": "3D",
+					"name": "3D"
+				},
+				{
+					"bit": 13,
+					"group": "rxMode",
+					"mode": "select",
+					"name": "RX_PARALLEL_PWM"
+				},
+				{
+					"bit": 14,
+					"group": "rxMode",
+					"mode": "select",
+					"name": "RX_MSP"
+				},
+				{
+					"bit": 15,
+					"group": "rssi",
+					"name": "RSSI_ADC"
+				},
+				{
+					"bit": 16,
+					"group": "other",
+					"name": "LED_STRIP"
+				},
+				{
+					"bit": 17,
+					"group": "other",
+					"name": "DISPLAY",
+					"haveTip": true
+				},
+				{
+					"bit": 19,
+					"group": "other",
+					"name": "BLACKBOX",
+					"haveTip": true
+				},
+				{
+					"bit": 20,
+					"group": "other",
+					"name": "CHANNEL_FORWARDING"
+				},
+				{
+					"bit": 8,
+					"group": "rxFailsafe",
+					"name": "FAILSAFE",
+					"haveTip": true
+				},
+				{
+					"bit": 21,
+					"group": "other",
+					"name": "TRANSPONDER",
+					"haveTip": true
+				},
+				{
+					"bit": 22,
+					"group": "other",
+					"name": "AIRMODE"
+				},
+				{
+					"bit": 23,
+					"group": "other",
+					"name": "SDCARD"
+				},
+				{
+					"bit": 18,
+					"group": "other",
+					"name": "OSD"
+				},
+				{
+					"bit": 27,
+					"group": "other",
+					"name": "ESC_SENSOR"
+				}
+			],
+			"_featureMask": 264
+		},
+		"board_align_roll": 0,
+		"board_align_pitch": 0,
+		"board_align_yaw": 0,
+		"currentscale": 400,
+		"currentoffset": 0,
+		"currentmetertype": 0,
+		"batterycapacity": 0
+	},
+	"SERIAL_CONFIG": {
+		"ports": [
+			{
+				"identifier": 20,
+				"functions": [
+					"MSP"
+				],
+				"msp_baudrate": "115200",
+				"gps_baudrate": "57600",
+				"telemetry_baudrate": "AUTO",
+				"blackbox_baudrate": "115200"
+			},
+			{
+				"identifier": 0,
+				"functions": [],
+				"msp_baudrate": "115200",
+				"gps_baudrate": "57600",
+				"telemetry_baudrate": "AUTO",
+				"blackbox_baudrate": "115200"
+			},
+			{
+				"identifier": 1,
+				"functions": [
+					"RX_SERIAL"
+				],
+				"msp_baudrate": "115200",
+				"gps_baudrate": "57600",
+				"telemetry_baudrate": "AUTO",
+				"blackbox_baudrate": "115200"
+			},
+			{
+				"identifier": 3,
+				"functions": [],
+				"msp_baudrate": "115200",
+				"gps_baudrate": "57600",
+				"telemetry_baudrate": "AUTO",
+				"blackbox_baudrate": "115200"
+			}
+		],
+		"mspBaudRate": 0,
+		"gpsBaudRate": 0,
+		"gpsPassthroughBaudRate": 0,
+		"cliBaudRate": 0
+	},
+	"LED_STRIP": [
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		},
+		{
+			"y": 0,
+			"x": 0,
+			"functions": [
+				"c"
+			],
+			"color": 0,
+			"directions": [],
+			"parameters": 0
+		}
+	],
+	"LED_COLORS": [
+		{
+			"h": 0,
+			"s": 0,
+			"v": 0
+		},
+		{
+			"h": 0,
+			"s": 255,
+			"v": 255
+		},
+		{
+			"h": 0,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 30,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 60,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 90,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 120,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 150,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 180,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 210,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 240,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 270,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 300,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 330,
+			"s": 0,
+			"v": 255
+		},
+		{
+			"h": 0,
+			"s": 0,
+			"v": 0
+		},
+		{
+			"h": 0,
+			"s": 0,
+			"v": 0
+		}
+	],
+	"LED_MODE_COLORS": [
+		{
+			"mode": 0,
+			"direction": 0,
+			"color": 1
+		},
+		{
+			"mode": 0,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 0,
+			"direction": 2,
+			"color": 2
+		},
+		{
+			"mode": 0,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 0,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 0,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 1,
+			"direction": 0,
+			"color": 5
+		},
+		{
+			"mode": 1,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 1,
+			"direction": 2,
+			"color": 3
+		},
+		{
+			"mode": 1,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 1,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 1,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 2,
+			"direction": 0,
+			"color": 10
+		},
+		{
+			"mode": 2,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 2,
+			"direction": 2,
+			"color": 4
+		},
+		{
+			"mode": 2,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 2,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 2,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 3,
+			"direction": 0,
+			"color": 8
+		},
+		{
+			"mode": 3,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 3,
+			"direction": 2,
+			"color": 4
+		},
+		{
+			"mode": 3,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 3,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 3,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 4,
+			"direction": 0,
+			"color": 7
+		},
+		{
+			"mode": 4,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 4,
+			"direction": 2,
+			"color": 3
+		},
+		{
+			"mode": 4,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 4,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 4,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 5,
+			"direction": 0,
+			"color": 9
+		},
+		{
+			"mode": 5,
+			"direction": 1,
+			"color": 11
+		},
+		{
+			"mode": 5,
+			"direction": 2,
+			"color": 2
+		},
+		{
+			"mode": 5,
+			"direction": 3,
+			"color": 13
+		},
+		{
+			"mode": 5,
+			"direction": 4,
+			"color": 10
+		},
+		{
+			"mode": 5,
+			"direction": 5,
+			"color": 3
+		},
+		{
+			"mode": 6,
+			"direction": 0,
+			"color": 6
+		},
+		{
+			"mode": 6,
+			"direction": 1,
+			"color": 10
+		},
+		{
+			"mode": 6,
+			"direction": 2,
+			"color": 1
+		},
+		{
+			"mode": 6,
+			"direction": 3,
+			"color": 0
+		},
+		{
+			"mode": 6,
+			"direction": 4,
+			"color": 0
+		},
+		{
+			"mode": 6,
+			"direction": 5,
+			"color": 2
+		},
+		{
+			"mode": 6,
+			"direction": 6,
+			"color": 3
+		},
+		{
+			"mode": 6,
+			"direction": 7,
+			"color": 6
+		},
+		{
+			"mode": 6,
+			"direction": 8,
+			"color": 0
+		},
+		{
+			"mode": 6,
+			"direction": 9,
+			"color": 0
+		},
+		{
+			"mode": 6,
+			"direction": 10,
+			"color": 0
+		},
+		{
+			"mode": 7,
+			"direction": 0,
+			"color": 3
+		}
+	],
+	"FC_CONFIG": {
+		"loopTime": 125
+	},
+	"ARMING_CONFIG": {
+		"auto_disarm_delay": 5,
+		"disarm_kill_switch": 1
+	},
+	"_3D": {
+		"deadband3d_low": 1406,
+		"deadband3d_high": 1514,
+		"neutral3d": 1460,
+		"deadband3d_throttle": 50
+	},
+	"SENSOR_ALIGNMENT": {
+		"align_gyro": 0,
+		"align_acc": 0,
+		"align_mag": 0
+	},
+	"RX_CONFIG": {
+		"serialrx_provider": 1,
+		"maxcheck": 1900,
+		"midrc": 1500,
+		"mincheck": 1100,
+		"spektrum_sat_bind": 0,
+		"rx_min_usec": 885,
+		"rx_max_usec": 2115,
+		"rcInterpolation": 2,
+		"rcInterpolationInterval": 19,
+		"airModeActivateThreshold": 1350,
+		"rxSpiProtocol": 0,
+		"rxSpiId": 0,
+		"rxSpiRfChannelCount": 0,
+		"fpvCamAngleDegrees": 15
+	},
+	"FAILSAFE_CONFIG": {
+		"failsafe_delay": 10,
+		"failsafe_off_delay": 10,
+		"failsafe_throttle": 1000,
+		"failsafe_kill_switch": 0,
+		"failsafe_throttle_low_delay": 100,
+		"failsafe_procedure": 1
+	},
+	"RXFAIL_CONFIG": [
+		{
+			"mode": 0,
+			"value": 1500
+		},
+		{
+			"mode": 0,
+			"value": 1500
+		},
+		{
+			"mode": 0,
+			"value": 1500
+		},
+		{
+			"mode": 0,
+			"value": 875
+		},
+		{
+			"mode": 2,
+			"value": 875
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		},
+		{
+			"mode": 1,
+			"value": 1500
+		}
+	]
+}
