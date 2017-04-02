@@ -1,6 +1,10 @@
 # CharliesAlienWhoopF4
 AlienFlight F4 remixed for Tiny Whoop/Inductrix
 
+## DIY Flight Controller
+Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you.
+* https://oshpark.com/shared_projects/0EbGysrg
+
 ## Official Facebook page
 Charlie's AlienWhoop F4 now has a Facebook page:
 * https://www.facebook.com/alienwhoop/
