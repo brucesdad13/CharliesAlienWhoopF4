@@ -1,7 +1,9 @@
-![IMAGE AlienWhoop F4 Flight Controller](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/ab91bff71f67dc7f50bb23f3138b584e.png) ![IMAGE AlienWhoop F4 Flight Controller](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/d295dbc66b96137f2bcdcb1bb7dbcab8.png)
+![IMAGE AlienWhoop F4 Flight Controller Welcome](https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/17264812_1318893448156321_7010951497722158954_n.png?oh=376725b38a53aadfc2b7d7f6c9373efb&oe=59924A31)
+
+![IMAGE AlienWhoop F4 Flight Controller PCB Top Side](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/ab91bff71f67dc7f50bb23f3138b584e.png) ![IMAGE AlienWhoop F4 Flight Controller PCB Bottom Side](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/d295dbc66b96137f2bcdcb1bb7dbcab8.png)
 
 
-# CharliesAlienWhoopF4 :alien:
+# AlienWhoopF4 Features :alien:
 AlienFlight F4 remixed for Tiny Whoop/Inductrix
 
 * High-performance ST Microelectronics ARM Cortex-M4 core F4 168 MHz CPU
