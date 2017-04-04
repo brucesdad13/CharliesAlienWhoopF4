@@ -1,6 +1,11 @@
 # CharliesAlienWhoopF4
 AlienFlight F4 remixed for Tiny Whoop/Inductrix
 
+* High-performance ST Microelectronics ARM Cortex-M4 core F4 168 MHz CPU
+* Invensense MPU-9250 Nine-Axis (Gyro + Accelerometer + Compass) low power consumption MEMS MotionTracking™ Device
+* Latest BetaFlight support (via ALIENFLIGHTF4 target) capable of 32kHz gyro sampling and 16kHz PID loop
+* Fairchild Semiconductor FDMA410NZ MOSFET with 9.5A continuous and 24A burst brushed motor insanity (8.5mm coreless scream)
+
 ## DIY Flight Controller
 Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you.
 * https://oshpark.com/shared_projects/0EbGysrg
