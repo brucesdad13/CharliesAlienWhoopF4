@@ -1,7 +1,7 @@
 ![IMAGE AlienWhoop F4 Flight Controller](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/ab91bff71f67dc7f50bb23f3138b584e.png) ![IMAGE AlienWhoop F4 Flight Controller](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/d295dbc66b96137f2bcdcb1bb7dbcab8.png)
 
 
-# CharliesAlienWhoopF4
+# CharliesAlienWhoopF4 :alien:
 AlienFlight F4 remixed for Tiny Whoop/Inductrix
 
 * High-performance ST Microelectronics ARM Cortex-M4 core F4 168 MHz CPU
@@ -9,18 +9,18 @@ AlienFlight F4 remixed for Tiny Whoop/Inductrix
 * Latest BetaFlight support (via ALIENFLIGHTF4 target) capable of 32kHz gyro sampling and 16kHz PID loop
 * Fairchild Semiconductor FDMA410NZ MOSFET with 9.5A continuous and 24A burst brushed motor insanity (8.5mm coreless scream)
 
-## DIY Flight Controller
+## DIY Flight Controller :alien:
 Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you.
 * https://oshpark.com/shared_projects/0EbGysrg
 
-## Official Facebook page
+## Official Facebook page :alien:
 Charlie's AlienWhoop F4 now has a Facebook page:
 * https://www.facebook.com/alienwhoop/
 
 For general flight controller hacking discussion please join the Facebook group "FC builders and hackers cooperative":
 * https://www.facebook.com/groups/1019540631468076/ ~
 
-## See the AlienWhoop F4 in action on YouTube
+## See the AlienWhoop F4 in action on YouTube :alien:
 
 [![IMAGE Charlie's AlienWhoop F4 Moonlight Mission](https://img.youtube.com/vi/38bLJCeIUMI/0.jpg)](https://www.youtube.com/watch?v=38bLJCeIUMI)
 
@@ -28,7 +28,7 @@ For general flight controller hacking discussion please join the Facebook group 
 
 May this work be of benefit and bring much joy and happiness!
 
-## Acknowledgements
+## Acknowledgements :alien:
 
 Deep bows of appreciation and thanks to Lance for his original work and tremendous
 generosity in releasing his labor of love for the benefit of all flight controller
