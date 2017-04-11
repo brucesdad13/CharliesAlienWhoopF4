@@ -48,6 +48,7 @@ Others deserving thanks for answering questions include in no specific order:
 * Adam Madron
 * Joel Goetze
 * Gary Baynes
+* Dan Sheadel (OSH Park)
 
 ~ Please note: AlienWhoop is not affiliated with nor endorsed by Lance (alienflight.com) or any other Alien projects. The use of Alien in the name and the alien head vector graphic used on the board silkscreen are nods to the lineage of this remix and to the work of Lance and others who created the conditions for this project to arise. Likewise, AlienWhoop is not affiliated with nor endorsed by Tiny Whoop. The Whoop in the name comes from Jesse Perkin's fantastic Tiny Whoop ("a small first-person-view aircraft that truly allows you to feel the gift of flight and the feeling of being tiny" [tinywhoop.com]) and is simply a nod to his efforts and the TW community worldwide.
 
