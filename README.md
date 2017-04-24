@@ -24,9 +24,11 @@ For general flight controller hacking discussion please join the Facebook group 
 
 ## See the AlienWhoop F4 in action on YouTube :alien:
 
-[![IMAGE Charlie's AlienWhoop F4 Moonlight Mission](https://img.youtube.com/vi/38bLJCeIUMI/0.jpg)](https://www.youtube.com/watch?v=38bLJCeIUMI)
+[![IMAGE Soldering the AlienWhoop F4 ](https://img.youtube.com/vi/lKBv_KNc1kM/0.jpg)](https://youtu.be/lKBv_KNc1kM?list=PLFRS68bDc858ymXzT-Lwq0kM343hY3uC5)
 
 [![IMAGE Charlie's AlienWhoopF4 Takes On Brewmaster's Drone Night 3/25/2017 ](https://img.youtube.com/vi/Dv2q1gmsQvg/0.jpg)](https://www.youtube.com/watch?v=Dv2q1gmsQvg)
+
+[![IMAGE Warm Weather AlienWhoopin' ](https://img.youtube.com/vi/nY42n2VDJSA/0.jpg)](https://www.youtube.com/watch?v=nY42n2VDJSA)
 
 May this work be of benefit and bring much joy and happiness!
 
