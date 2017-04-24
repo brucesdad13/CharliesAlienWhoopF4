@@ -41,9 +41,9 @@ Equally deep bows to Jesse Perkins, creator of Tiny Whoop, and the source of ins
 * http://www.tinywhoop.com/ ~
 * https://www.facebook.com/groups/tinywhoop/ ~
 
-Appreciation and respect also goes out to the contributors to the BetaFlight ALIENFLIGHTF4 target including Michael Jakob (MJ666), Martin Budden (martinbudden), and J Blackman (blckmn).
+Appreciation and respect also goes out to the contributors to the BetaFlight ALIENFLIGHTF4 target including Michael Jakob (MJ666), Martin Budden (martinbudden), and J Blackman (blckmn). Special thanks to Michael Jakob (MJ666) for clearing up confusion on the MPU-9250 magnetometer / compass driver and for updating to MPU-6500 code to work with whichever MPU you decide upon 6500 or 9250 (with compass).
 
-Others deserving thanks for answering questions include in no specific order:
+Others deserving thanks for answering questions include in no specific order (and many others):
 * Peter (Pedro) Newman
 * Adam Madron
 * Joel Goetze
