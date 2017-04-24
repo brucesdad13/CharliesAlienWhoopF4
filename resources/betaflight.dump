@@ -1,6 +1,3 @@
-# version
-# Betaflight / ALIENFLIGHTF4 3.2.0 Mar 18 2017 / 20:32:58 (db2e868)
-
 # name
 name ALIENWHOOPF4
 
@@ -36,28 +33,28 @@ resource PWM 6 NONE
 resource PWM 7 NONE
 resource PWM 8 NONE
 resource LED_STRIP 1 B15
-resource SERIAL_TX 1 @01
-resource SERIAL_TX 2 NONE
-resource SERIAL_TX 3 A04
-resource SERIAL_TX 4 @05
-resource SERIAL_TX 5 @04
-resource SERIAL_TX 6 @05
+resource SERIAL_TX 1 A09
+resource SERIAL_TX 2 A02
+resource SERIAL_TX 3 NONE
+resource SERIAL_TX 4 C11
+resource SERIAL_TX 5 NONE
+resource SERIAL_TX 6 NONE
 resource SERIAL_TX 7 NONE
 resource SERIAL_TX 8 NONE
 resource SERIAL_TX 9 NONE
 resource SERIAL_TX 10 NONE
 resource SERIAL_TX 11 NONE
-resource SERIAL_TX 12 @05
-resource SERIAL_RX 1 @04
-resource SERIAL_RX 2 @05
+resource SERIAL_TX 12 NONE
+resource SERIAL_RX 1 A10
+resource SERIAL_RX 2 A03
 resource SERIAL_RX 3 NONE
-resource SERIAL_RX 4 NONE
+resource SERIAL_RX 4 C10
 resource SERIAL_RX 5 NONE
 resource SERIAL_RX 6 NONE
-resource SERIAL_RX 7 @01
-resource SERIAL_RX 8 @05
-resource SERIAL_RX 9 @04
-resource SERIAL_RX 10 @05
+resource SERIAL_RX 7 NONE
+resource SERIAL_RX 8 NONE
+resource SERIAL_RX 9 NONE
+resource SERIAL_RX 10 NONE
 resource SERIAL_RX 11 NONE
 resource SERIAL_RX 12 NONE
 
@@ -110,7 +107,7 @@ feature -RSSI_ADC
 feature -LED_STRIP
 feature -DISPLAY
 feature -OSD
-feature -BLACKBOX
+feature -UNUSED
 feature -CHANNEL_FORWARDING
 feature -TRANSPONDER
 feature -AIRMODE
@@ -119,6 +116,7 @@ feature -VTX
 feature -RX_SPI
 feature -SOFTSPI
 feature -ESC_SENSOR
+feature -ANTI_GRAVITY
 feature RX_SERIAL
 feature FAILSAFE
 
@@ -255,11 +253,11 @@ mode_color 6 10 0
 mode_color 7 0 3
 
 # aux
-aux 0 1 1 900 1150
-aux 1 2 1 1300 2100
-aux 2 0 0 900 900
-aux 3 0 0 900 900
-aux 4 0 0 900 900
+aux 0 28 1 1800 2100
+aux 1 4 1 1800 2100
+aux 2 1 1 900 1150
+aux 3 2 1 1300 1650
+aux 4 30 1 1800 2100
 aux 5 0 0 900 900
 aux 6 0 0 900 900
 aux 7 0 0 900 900
@@ -304,8 +302,8 @@ rxfail 0 a
 rxfail 1 a
 rxfail 2 a
 rxfail 3 a
-rxfail 4 s 875
-rxfail 5 h
+rxfail 4 h
+rxfail 5 s 875
 rxfail 6 h
 rxfail 7 h
 rxfail 8 h
@@ -325,12 +323,12 @@ set gyro_lpf = OFF
 set gyro_sync_denom = 1
 set gyro_lowpass_type = PT1
 set gyro_lowpass = 90
-set gyro_notch1_hz = 400
+set gyro_notch1_hz = 0
 set gyro_notch1_cutoff = 300
-set gyro_notch2_hz = 200
+set gyro_notch2_hz = 0
 set gyro_notch2_cutoff = 100
 set moron_threshold = 48
-set gyro_use_32khz = OFF
+set gyro_use_32khz = ON
 set gyro_isr_update = OFF
 set align_acc = DEFAULT
 set acc_hardware = AUTO
@@ -338,16 +336,11 @@ set acc_lpf_hz = 10
 set acc_trim_pitch = 0
 set acc_trim_roll = 0
 set align_mag = DEFAULT
-set mag_hardware = NONE
+set mag_hardware = AUTO
 set mag_declination = 0
 set magzero_x = 0
 set magzero_y = 0
 set magzero_z = 0
-set baro_hardware = NONE
-set baro_tab_size = 21
-set baro_noise_lpf =  0.600
-set baro_cf_vel =  0.985
-set baro_cf_alt =  0.965
 set mid_rc = 1500
 set min_check = 1100
 set max_check = 1900
@@ -359,8 +352,10 @@ set rc_interp_ch = RP
 set rc_interp_int = 19
 set fpv_mix_degrees = 15
 set max_aux_channels = 14
-set serialrx_provider = SPEK2048
+set serialrx_provider = SPEK1024
 set sbus_inversion = ON
+set spektrum_sat_bind = 9
+set spektrum_sat_bind_autoreset = 1
 set airmode_start_throttle = 1350
 set rx_min_usec = 885
 set rx_max_usec = 2115
@@ -391,30 +386,32 @@ set align_board_pitch = 0
 set align_board_yaw = 0
 set gimbal_mode = NORMAL
 set bat_capacity = 0
-set vbat_scale = 110
 set vbat_max_cell_voltage = 43
 set vbat_min_cell_voltage = 33
 set vbat_warning_cell_voltage = 35
 set vbat_hysteresis = 1
-set ibat_scale = 400
-set ibat_offset = 0
-set mwii_ibat_output = OFF
-set current_meter_type = ADC
-set battery_meter_type = ADC
+set current_meter = NONE
+set battery_meter = NONE
 set bat_detect_thresh = 55
 set use_vbat_alerts = ON
 set use_cbat_alerts = OFF
 set cbat_alert_percent = 10
+set vbat_scale = 110
+set ibata_scale = -667
+set ibata_offset = 2500
+set ibatv_scale = 0
+set ibatv_offset = 0
 set beeper_inversion = ON
 set beeper_od = OFF
-set yaw_motor_direction = 1
+set beeper_frequency = 0
+set yaw_motors_reversed = OFF
 set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
 set 3d_neutral = 1460
 set 3d_deadband_throttle = 50
 set servo_center_pulse = 1500
 set servo_pwm_rate = 50
-set servo_lowpass_hz = 0
+set servo_lowpass_hz = 400
 set tri_unarmed_servo = ON
 set channel_forwarding_start = 4
 set reboot_character = 82
@@ -437,13 +434,13 @@ set nav_controls_heading = ON
 set nav_speed_min = 100
 set nav_speed_max = 300
 set nav_slew_rate = 30
-set fixedwing_althold_dir = 1
+set fixedwing_althold_reversed = OFF
 set alt_hold_deadband = 40
 set alt_hold_fast_change = ON
 set deadband = 3
 set yaw_deadband = 2
-set yaw_control_direction = 1
-set pid_process_denom = 1
+set yaw_control_reversed = OFF
+set pid_process_denom = 2
 set tlm_switch = OFF
 set tlm_inversion = OFF
 set sport_halfduplex = ON
@@ -457,7 +454,6 @@ set hott_alarm_int = 5
 set pid_in_tlm = OFF
 set ibus_report_cell_voltage = OFF
 set ledstrip_visual_beeper = OFF
-set sdcard_dma = ON
 set task_statistics = ON
 set debug_mode = NONE
 set displayport_msp_col_adjust = 0
@@ -468,12 +464,12 @@ profile 2
 
 set d_lowpass_type = BIQUAD
 set d_lowpass = 100
-set d_notch_hz = 260
+set d_notch_hz = 0
 set d_notch_cut = 160
 set vbat_pid_gain = OFF
 set pid_at_min_throttle = ON
 set anti_gravity_thresh = 350
-set anti_gravity_gain =  1.000
+set anti_gravity_gain =  4.000
 set setpoint_relax_ratio = 20
 set d_setpoint_weight = 100
 set yaw_accel_limit =  10.000
