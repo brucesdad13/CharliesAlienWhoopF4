@@ -1,0 +1,79 @@
+# diff
+
+# version
+# Betaflight / ALIENFLIGHTF4 3.2.0 Apr 20 2017 / 09:46:26 (7546e76)
+
+# name
+name HELLWHOOPF4
+
+# resources
+
+# mixer
+
+mmix reset
+
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -MOTOR_STOP
+
+# beeper
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 28 1 900 2100
+aux 1 4 1 1300 2100
+aux 2 1 1 900 1200
+aux 3 2 1 1300 1700
+aux 4 6 0 1800 2100
+
+# adjrange
+adjrange 0 0 1 900 1200 0 1
+adjrange 1 0 1 1800 2100 0 1
+
+# rxrange
+
+# rxfail
+rxfail 5 s 875
+
+# master
+set gyro_use_32khz = ON
+set mag_hardware = AUTO
+set fpv_mix_degrees = 30
+set blackbox_device = SERIAL
+set min_throttle = 1080
+set motor_pwm_rate = 666
+set deadband = 2
+set yaw_deadband = 2
+set pid_process_denom = 2
+
+# profile
+profile 0
+
+set p_pitch = 100
+set d_pitch = 25
+set p_roll = 75
+set i_roll = 35
+set d_roll = 25
+set p_yaw = 50
+set i_yaw = 35
+
+# rateprofile
+rateprofile 0
+
+set yaw_srate = 80
+set tpa_rate = 40
+set tpa_breakpoint = 1200
