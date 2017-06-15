@@ -16,7 +16,7 @@ Order your own PCBs from OSH Park by visiting the link below. I recommend orderi
 * https://oshpark.com/shared_projects/NCDk9MaM
 
 ## Official Facebook page :alien:
-Charlie's AlienWhoop F4 now has a Facebook page:
+Charlie's AlienWhoop F4 has a Facebook page:
 * https://www.facebook.com/alienwhoop/
 
 ## See the AlienWhoop F4 in action on YouTube :alien:
