@@ -19,9 +19,6 @@ Order your own PCBs from OSH Park by visiting the link below. I recommend orderi
 Charlie's AlienWhoop F4 now has a Facebook page:
 * https://www.facebook.com/alienwhoop/
 
-For general flight controller hacking discussion please join the Facebook group "FC builders and hackers cooperative":
-* https://www.facebook.com/groups/1019540631468076/ ~
-
 ## See the AlienWhoop F4 in action on YouTube :alien:
 
 [![IMAGE Soldering the AlienWhoop F4 ](https://img.youtube.com/vi/lKBv_KNc1kM/0.jpg)](https://youtu.be/lKBv_KNc1kM?list=PLFRS68bDc858ymXzT-Lwq0kM343hY3uC5)
