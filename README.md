@@ -1,3 +1,5 @@
+# UPDATE -- Charlie's AlienWhoop F4 is now OBSOLETE. A new version, deriving from Lance's AlienFlight F3 Brushed Quad, based on the F7 processor has been developed. The AlienWhoop F7 board is backwards compatible, on the same PCB, with F4. The content below has been preserved for historical purposes.
+
 ![IMAGE AlienWhoop F4 Flight Controller Welcome](https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/17264812_1318893448156321_7010951497722158954_n.png?oh=376725b38a53aadfc2b7d7f6c9373efb&oe=59924A31)
 
 ![IMAGE AlienWhoop F4 Flight Controller PCB Top Side](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/ab91bff71f67dc7f50bb23f3138b584e.png) ![IMAGE AlienWhoop F4 Flight Controller PCB Bottom Side](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/d295dbc66b96137f2bcdcb1bb7dbcab8.png)
@@ -12,7 +14,7 @@ AlienFlight F4 remixed for Tiny Whoop/Inductrix
 * Fairchild Semiconductor FDMA410NZ MOSFET with 9.5A continuous and 24A burst brushed motor insanity (8.5mm coreless scream)
 
 ## DIY Flight Controller :alien:
-Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you.
+Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you (Note: this version is now obsolete please see the AlienWhoop F7).
 * https://oshpark.com/shared_projects/NCDk9MaM
 
 ## Official Facebook page :alien:
