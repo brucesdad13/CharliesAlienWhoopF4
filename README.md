@@ -14,8 +14,8 @@ AlienFlight F4 remixed for Tiny Whoop/Inductrix
 * Fairchild Semiconductor FDMA410NZ MOSFET with 9.5A continuous and 24A burst brushed motor insanity (8.5mm coreless scream)
 
 ## DIY Flight Controller :alien:
-Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you (Note: this version is now obsolete please see the AlienWhoop F7).
-* https://oshpark.com/shared_projects/NCDk9MaM
+Order your own PCBs from OSH Park by visiting the link below. I recommend ordering the 2oz copper 0.8mm thickness PCB. It takes about three weeks but that will allow plenty of time to order components from the bill of materials in the resources folder. I don't receive any commission or compesation when you order from OSH Park--simply created as a convenience to you (**Note: this version is now obsolete please see the AlienWhoop F7**).
+* https://oshpark.com/
 
 ## Official Facebook page :alien:
 Charlie's AlienWhoop F4 has a Facebook page:
@@ -35,8 +35,9 @@ May this work be of benefit and bring much joy and happiness!
 
 Deep bows of appreciation and thanks to Lance for his original work and tremendous
 generosity in releasing his labor of love for the benefit of all flight controller
-enthusiasts. Check out AlienWhoops heritage at Lance's site:
-* http://alienflight.com/ ~
+enthusiasts. Check out AlienWhoop's heritage at Lance's site:
+* http://alienflight.com/ ~ offline as of June 2017
+* https://github.com/brucesdad13/AlienFlightArchive ~ Archive of Lance's AlienFlight CC BY-SA suite of flight controllers
 
 Equally deep bows to Jesse Perkins, creator of Tiny Whoop, and the source of inspiration and love for tiny brushed quads.
 * http://www.tinywhoop.com/ ~
@@ -45,10 +46,10 @@ Equally deep bows to Jesse Perkins, creator of Tiny Whoop, and the source of ins
 Appreciation and respect also goes out to the contributors to the BetaFlight ALIENFLIGHTF4 target including Michael Jakob (MJ666), Martin Budden (martinbudden), and J Blackman (blckmn). Special thanks to Michael Jakob (MJ666) for clearing up confusion on the MPU-9250 magnetometer / compass driver and for updating to MPU-6500 code to work with whichever MPU you decide upon 6500 or 9250 (with compass).
 
 Others deserving thanks for answering questions include in no specific order (and many others):
-* Peter (Pedro) Newman
+* OSH Park
 * Adam Madron
 * Joel Goetze
 * Gary Baynes
-* Dan Sheadel (OSH Park)
+* Peter (Pedro) Newman
 
 ~ Please note: AlienWhoop is not affiliated with nor endorsed by Lance (alienflight.com) or any other Alien projects. The use of Alien in the name and the alien head vector graphic used on the board silkscreen are nods to the lineage of this remix and to the work of Lance and others who created the conditions for this project to arise. Likewise, AlienWhoop is not affiliated with nor endorsed by Tiny Whoop. The Whoop in the name comes from Jesse Perkin's fantastic Tiny Whoop ("a small first-person-view aircraft that truly allows you to feel the gift of flight and the feeling of being tiny" [tinywhoop.com]) and is simply a nod to his efforts and the TW community worldwide.
