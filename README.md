@@ -1,4 +1,4 @@
-# UPDATE -- Charlie's AlienWhoop F4 is now OBSOLETE. A new version, deriving from [Lance's AlienFlight F3 Brushed Quad](https://github.com/brucesdad13/AlienFlightArchive/tree/master/Flight-Controllers/F3-V1/F3-Quad), based on the F7 processor has been developed. The AlienWhoop F7 board is backwards compatible, on the same PCB, with F4. The content below has been preserved for historical purposes.
+# UPDATE -- Charlie's AlienWhoop F4 is now OBSOLETE. A new version, deriving from [Lance's AlienFlight F3 Brushed Quad](https://github.com/brucesdad13/AlienFlightArchive/tree/master/Flight-Controllers/F3-V1/F3-Quad), based on the F7 processor has been developed. The AlienWhoop F7 board is backwards compatible, on the same PCB, with F4. The content below has been preserved for historical purposes. Please continue on to [AlienWhoop F7](https://github.com/brucesdad13/AlienWhoopF7)
 
 ![IMAGE AlienWhoop F4 Flight Controller Welcome](https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/17264812_1318893448156321_7010951497722158954_n.png?oh=376725b38a53aadfc2b7d7f6c9373efb&oe=59924A31)
 
